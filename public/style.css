@@ -1,0 +1,80 @@
+/* Estilo geral */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Menu */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+header h1 {
+  margin: 10px 0 5px;
+}
+header h2 {
+  margin: 0;
+  color: #666;
+}
+
+/* Seções */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+section h3 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #444;
+}
+ul {
+  padding-left: 20px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
